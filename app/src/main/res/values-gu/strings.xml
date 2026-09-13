@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">હાર્દિક લાઈફ વ્લોગ</string>
+    <string name="app_tagline">ઓફિશિયલ ક્રિએટર અને લાઇફસ્ટાઇલ પ્લેટફોર્મ</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">હોમ</string>
+    <string name="nav_vlogs">વ્લોગ્સ</string>
+    <string name="nav_shorts">શોર્ટ્સ</string>
+    <string name="nav_gallery">ગેલેરી</string>
+    <string name="nav_profile">પ્રોફાઇલ</string>
+
+    <!-- Home Section -->
+    <string name="featured_vlog">ખાસ વ્લોગ</string>
+    <string name="watch_now">હમણાં જુઓ</string>
+    <string name="latest_vlogs">નવા વ્લોગ્સ</string>
+    <string name="popular_vlogs">લોકપ્રિય વ્લોગ્સ</string>
+    <string name="latest_shorts">તાજા શોર્ટ્સ</string>
+    <string name="latest_photos">તાજી તસવીરો</string>
+    <string name="follow_hardik">હાર્દિક સાથે જોડાઓ</string>
+    <string name="view_all">બધા જુઓ</string>
+
+    <!-- Vlogs Screen -->
+    <string name="browse_vlogs">બધા વ્લોગ્સ એક્સપ્લોર કરો</string>
+    <string name="search_vlogs_hint">વ્લોગ્સ, સફર કે વાર્તાઓ શોધો...</string>
+    <string name="category_all">બધા</string>
+    <string name="category_daily_life">રોજિંદી જિંદગી</string>
+    <string name="category_travel">મુસાફરી</string>
+    <string name="category_lifestyle">લાઇફસ્ટાઇલ</string>
+    <string name="category_food">ખાણીપીણી</string>
+    <string name="category_events">પ્રસંગો</string>
+    <string name="category_family">પરિવાર</string>
+    <string name="category_friends">મિત્રો</string>
+    <string name="category_adventure">સાહસ</string>
+    <string name="sort_by">ક્રમબદ્ધ કરો</string>
+    <string name="sort_newest">સૌથી નવા</string>
+    <string name="sort_popular">સૌથી વધુ પસંદ કરાયેલ</string>
+    <string name="views_count">%1$s વ્યૂઝ</string>
+    <string name="likes_count">%1$s લાઇક્સ</string>
+    <string name="no_vlogs_found">કોઈ વ્લોગ મળ્યા નથી</string>
+    <string name="no_vlogs_description">બીજી કેટેગરી પસંદ કરો અથવા નવા અપલોડ્સ માટે થોડીવાર પછી જુઓ.</string>
+
+    <!-- Vlog Detail Screen -->
+    <string name="related_vlogs">સંબંધિત વ્લોગ્સ</string>
+    <string name="like_button">લાઈક</string>
+    <string name="liked_button">લાઈક કર્યું</string>
+    <string name="share_button">શેર કરો</string>
+    <string name="save_button">સાચવો</string>
+    <string name="saved_button">સાચવી લીધું</string>
+    <string name="open_youtube">યૂટ્યુબ પર જુઓ</string>
+    <string name="report_content">સમસ્યા જણાવો</string>
+    <string name="report_submitted">આભાર. આપનો પ્રતિસાદ નોંધાઈ ગયો છે.</string>
+    <string name="share_vlog_text">હાર્દિકનો આ સરસ વ્લોગ જુઓ: %1$s \n%2$s</string>
+    <string name="video_error">વીડિયો લોડ કરવામાં અસમર્થ</string>
+    <string name="retry_playback">ફરી પ્રયાસ કરો</string>
+    <string name="speed_title">પ્લેબેક ગતિ</string>
+
+    <!-- Shorts Screen -->
+    <string name="sound_original">ઓરિજિનલ ઓડિયો • હાર્દિક લાઈફ વ્લોગ</string>
+    <string name="mute">અવાજ બંધ</string>
+    <string name="unmute">અવાજ ચાલુ</string>
+
+    <!-- Gallery Screen -->
+    <string name="gallery_title">યાદગાર પળો</string>
+    <string name="gallery_cat_travel">મુસાફરી</string>
+    <string name="gallery_cat_daily">રોજિંદી પળો</string>
+    <string name="gallery_cat_events">પ્રસંગો</string>
+    <string name="gallery_cat_bts">શૂટિંગ પાછળની વાતો</string>
+    <string name="gallery_cat_memories">મીઠી યાદો</string>
+    <string name="share_photo">ફોટો શેર કરો</string>
+    <string name="no_photos_found">કોઈ તસવીરો મળી નથી</string>
+
+    <!-- Search Screen -->
+    <string name="search_title">શોધો</string>
+    <string name="search_hint">વ્લોગ્સ, શોર્ટ્સ કે ફોટો શોધો...</string>
+    <string name="tab_all">બધું</string>
+    <string name="recent_searches">તાજેતરમાં શોધાયેલ</string>
+    <string name="clear_history">સાફ કરો</string>
+    <string name="no_results">\"%1$s\" માટે કોઈ પરિણામ નથી</string>
+    <string name="no_results_tip">મુસાફરી, શહેરો, ફૂડ કે લાઇફસ્ટાઇલ વિશે શોધવાનો પ્રયાસ કરો.</string>
+
+    <!-- Profile Screen -->
+    <string name="creator_name">હાર્દિક</string>
+    <string name="creator_tag">@hardiklifevlog</string>
+    <string name="creator_bio">ક્રિએટર, વ્લોગર અને સ્ટોરીટેલર. રોજિંદી જિંદગી, મુસાફરી, મનગમતું ફૂડ અને પરિવાર-મિત્રો સાથેની સાચી પળો આપની સમક્ષ રજૂ કરું છું.</string>
+    <string name="stat_vlogs">વ્લોગ્સ</string>
+    <string name="stat_shorts">શોર્ટ્સ</string>
+    <string name="stat_subscribers">પરિવાર</string>
+    <string name="stat_subscribers_val">250K+</string>
+    <string name="about_hardik_title">હાર્દિક વિશે</string>
+    <string name="social_connect_title">સોશિયલ મીડિયા લિંક્સ</string>
+    <string name="saved_vlogs_title">સાચવેલા વ્લોગ્સ</string>
+    <string name="watch_history_title">વોચ હિસ્ટ્રી</string>
+    <string name="notifications_title">સૂચનાઓ (નોટિફિકેશન)</string>
+    <string name="admin_portal_title">ક્રિએટર સ્ટુડિયો</string>
+    <string name="login_to_account">ખાતામાં સાઇન ઇન કરો</string>
+    <string name="guest_account">મહેમાન યૂઝર</string>
+    <string name="guest_note">વ્લોગ સાચવવા, લાઈક કરવા અને હિસ્ટ્રી માટે સાઇન ઇન કરો.</string>
+
+    <!-- Auth -->
+    <string name="login_button">સાઇન ઇન</string>
+    <string name="register_button">નવું ખાતું બનાવો</string>
+    <string name="email_label">ઈમેઈલ એડ્રેસ</string>
+    <string name="password_label">પાસવર્ડ</string>
+    <string name="name_label">પૂરું નામ</string>
+    <string name="forgot_password">પાસવર્ડ ભૂલી ગયા છો?</string>
+    <string name="reset_password_instructions">પાસવર્ડ બદલવા માટે તમારો ઈમેઈલ દાખલ કરો.</string>
+    <string name="send_reset_link">લિંક મોકલો</string>
+    <string name="dont_have_acc">ખાતું નથી? નવું બનાવો</string>
+    <string name="already_have_acc">પહેલેથી ખાતું છે? સાઇન ઇન કરો</string>
+    <string name="continue_as_guest">મહેમાન તરીકે આગળ વધો</string>
+    <string name="logout_confirm">શું આપ ખરેખર લોગ આઉટ કરવા માંગો છો?</string>
+    <string name="logout">લોગ આઉટ</string>
+    <string name="delete_account">ખાતું કાઢી નાખો</string>
+
+    <!-- Settings -->
+    <string name="settings_title">સેટિંગ્સ</string>
+    <string name="appearance_section">થીમ અને ડિસ્પ્લે</string>
+    <string name="theme_setting">થીમ પસંદગી</string>
+    <string name="theme_dark">ડાર્ક (સિનેમેટિક)</string>
+    <string name="theme_light">લાઇટ</string>
+    <string name="theme_system">સિસ્ટમ અનુસાર</string>
+    <string name="language_setting">ભાષા / Language / भाषा</string>
+    <string name="playback_section">પ્લેબેક અને ડેટા</string>
+    <string name="autoplay_setting">ઓટો-પ્લે વીડિયો</string>
+    <string name="notifications_setting">પુશ નોટિફિકેશન</string>
+    <string name="cache_setting">કેશ મેમરી સાફ કરો</string>
+    <string name="history_setting">વોચ હિસ્ટ્રી સાફ કરો</string>
+    <string name="about_section">વિગતો અને નિયમો</string>
+    <string name="privacy_policy">પ્રાઇવસી પોલિસી</string>
+    <string name="terms_service">નિયમો અને શરતો</string>
+    <string name="contact_us">સંપર્ક કરો</string>
+    <string name="app_version_label">આવૃત્તિ 1.0.0 (ઓફિશિયલ)</string>
+    <string name="cache_cleared_msg">એપ કેશ સફળતાપૂર્વક સાફ થઈ ગયું.</string>
+    <string name="history_cleared_msg">વોચ હિસ્ટ્રી સાફ થઈ ગઈ.</string>
+
+    <!-- Common UI States -->
+    <string name="loading">લોડ થઈ રહ્યું છે...</string>
+    <string name="error_occurred">કંઈક ખોટું થયું</string>
+    <string name="offline_msg">આપ હાલમાં ઑફલાઇન છો. સાચવેલ સામગ્રી દર્શાવાઈ રહી છે.</string>
+    <string name="refresh">રીફ્રેશ</string>
+    <string name="cancel">રદ કરો</string>
+    <string name="confirm">ખાતરી કરો</string>
+    <string name="empty_saved">હજી સુધી કોઈ વ્લોગ સાચવેલા નથી</string>
+    <string name="empty_saved_desc">પછીથી જોવા માટે કોઈપણ વ્લોગ પર બુકમાર્ક આઇકન દબાવો.</string>
+    <string name="empty_history">કોઈ વોચ હિસ્ટ્રી નથી</string>
+    <string name="empty_history_desc">તમે જોયેલા વીડિયો અહીં દેખાશે જેથી તમે અધૂરેથી ચાલુ રાખી શકો.</string>
+</resources>

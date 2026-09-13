@@ -1,0 +1,7 @@
+{
+  "name": "Hardik Life Vlog",
+  "description": "Hardik Life Vlog - Official personal creator and vlogging platform for vlogs, shorts, photo galleries, and creator updates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,103 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() &&
+        (
+          request.auth.token.role == 'admin' ||
+          get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin'
+        );
+    }
+
+    function isUserActive() {
+      return isAuthenticated() &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.status != 'suspended';
+    }
+
+    // 1. Users collection:
+    // - Authenticated users can read/update their own profile
+    // - Only admins can list all users or modify roles/suspensions
+    match /users/{userId} {
+      allow read: if isAuthenticated() && (isOwner(userId) || isAdmin());
+      allow create: if isAuthenticated() && isOwner(userId);
+      allow update: if isAuthenticated() && (
+        (isOwner(userId) && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role', 'status'])) ||
+        isAdmin()
+      );
+      allow delete: if isAuthenticated() && (isOwner(userId) || isAdmin());
+    }
+
+    // 2. Vlogs collection:
+    // - Anyone can read published vlogs
+    // - Only admins can read drafts or create/update/delete vlogs
+    // - Active authenticated users can increment likes/views
+    match /vlogs/{vlogId} {
+      allow read: if resource.data.published == true || resource.data.status == 'published' || isAdmin();
+      allow create, delete: if isAdmin();
+      allow update: if isAdmin() || (
+        isAuthenticated() && isUserActive() &&
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['likes', 'views'])
+      );
+    }
+
+    // 3. Shorts collection:
+    match /shorts/{shortId} {
+      allow read: if resource.data.published == true || resource.data.status == 'published' || isAdmin();
+      allow create, delete: if isAdmin();
+      allow update: if isAdmin() || (
+        isAuthenticated() && isUserActive() &&
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['likes', 'views'])
+      );
+    }
+
+    // 4. Gallery collection:
+    match /gallery/{photoId} {
+      allow read: if true;
+      allow create, delete: if isAdmin();
+      allow update: if isAdmin() || (
+        isAuthenticated() && isUserActive() &&
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['likes'])
+      );
+    }
+
+    // 5. Categories collection:
+    match /categories/{categoryId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // 6. Banners collection:
+    match /banners/{bannerId} {
+      allow read: if resource.data.isActive == true || isAdmin();
+      allow write: if isAdmin();
+    }
+
+    // 7. Notifications collection:
+    match /notifications/{notificationId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // 8. Settings & Creator Profile documents:
+    match /settings/{documentId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // 9. Social Links collection:
+    match /social_links/{linkId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+  }
+}

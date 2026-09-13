@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">हार्दिक लाइफ व्लॉग</string>
+    <string name="app_tagline">ऑफिशियल क्रिएटर और लाइफस्टाइल प्लेटफॉर्म</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">होम</string>
+    <string name="nav_vlogs">व्लॉग्स</string>
+    <string name="nav_shorts">शॉर्ट्स</string>
+    <string name="nav_gallery">गैलरी</string>
+    <string name="nav_profile">प्रोफाइल</string>
+
+    <!-- Home Section -->
+    <string name="featured_vlog">खास व्लॉग</string>
+    <string name="watch_now">अभी देखें</string>
+    <string name="latest_vlogs">नवीनतम व्लॉग्स</string>
+    <string name="popular_vlogs">लोकप्रिय व्लॉग्स</string>
+    <string name="latest_shorts">ताज़ा शॉर्ट्स</string>
+    <string name="latest_photos">ताज़ा तस्वीरें</string>
+    <string name="follow_hardik">हार्दिक से जुड़ें</string>
+    <string name="view_all">सभी देखें</string>
+
+    <!-- Vlogs Screen -->
+    <string name="browse_vlogs">सभी व्लॉग्स देखें</string>
+    <string name="search_vlogs_hint">व्लॉग्स, यात्राएं, कहानियां खोजें...</string>
+    <string name="category_all">सभी</string>
+    <string name="category_daily_life">दैनिक जीवन</string>
+    <string name="category_travel">यात्रा</string>
+    <string name="category_lifestyle">लाइफस्टाइल</string>
+    <string name="category_food">खान-पान</string>
+    <string name="category_events">इवेंट्स</string>
+    <string name="category_family">परिवार</string>
+    <string name="category_friends">दोस्त</string>
+    <string name="category_adventure">एडवेंचर</string>
+    <string name="sort_by">क्रमबद्ध करें</string>
+    <string name="sort_newest">सबसे नए</string>
+    <string name="sort_popular">सबसे लोकप्रिय</string>
+    <string name="views_count">%1$s बार देखा गया</string>
+    <string name="likes_count">%1$s पसंद</string>
+    <string name="no_vlogs_found">कोई व्लॉग नहीं मिला</string>
+    <string name="no_vlogs_description">कृपया कोई अन्य श्रेणी चुनें या नए व्लॉग्स के लिए बाद में देखें।</string>
+
+    <!-- Vlog Detail Screen -->
+    <string name="related_vlogs">संबंधित व्लॉग्स</string>
+    <string name="like_button">पसंद</string>
+    <string name="liked_button">पसंद किया</string>
+    <string name="share_button">शेयर करें</string>
+    <string name="save_button">सेव करें</string>
+    <string name="saved_button">सेव किया</string>
+    <string name="open_youtube">यूट्यूब पर देखें</string>
+    <string name="report_content">समस्या बताएं</string>
+    <string name="report_submitted">धन्यवाद। आपकी शिकायत दर्ज कर ली गई है।</string>
+    <string name="share_vlog_text">हार्दिक का यह शानदार व्लॉग देखें: %1$s \n%2$s</string>
+    <string name="video_error">वीडियो लोड करने में असमर्थ</string>
+    <string name="retry_playback">पुनः प्रयास करें</string>
+    <string name="speed_title">प्लेबैक गति</string>
+
+    <!-- Shorts Screen -->
+    <string name="sound_original">मूल ऑडियो • हार्दिक लाइफ व्लॉग</string>
+    <string name="mute">म्यूट करें</string>
+    <string name="unmute">अनम्यूट करें</string>
+
+    <!-- Gallery Screen -->
+    <string name="gallery_title">फोटो गैलरी</string>
+    <string name="gallery_cat_travel">यात्रा</string>
+    <string name="gallery_cat_daily">दैनिक जीवन</string>
+    <string name="gallery_cat_events">समारोह</string>
+    <string name="gallery_cat_bts">शूटिंग के पीछे</string>
+    <string name="gallery_cat_memories">यादें</string>
+    <string name="share_photo">फोटो शेयर करें</string>
+    <string name="no_photos_found">कोई फोटो नहीं मिला</string>
+
+    <!-- Search Screen -->
+    <string name="search_title">खोजें</string>
+    <string name="search_hint">व्लॉग, शॉर्ट्स या तस्वीरें खोजें...</string>
+    <string name="tab_all">सभी</string>
+    <string name="recent_searches">हाल ही में खोजे गए</string>
+    <string name="clear_history">हटाएं</string>
+    <string name="no_results">\"%1$s\" के लिए कोई परिणाम नहीं मिला</string>
+    <string name="no_results_tip">सफर, शहरों, भोजन या लाइफस्टाइल से जुड़े शब्द खोजें।</string>
+
+    <!-- Profile Screen -->
+    <string name="creator_name">हार्दिक</string>
+    <string name="creator_tag">@hardiklifevlog</string>
+    <string name="creator_bio">क्रिएटर, व्लॉगर और कहानीकार। दैनिक जीवन, रोमांचक यात्राएं, स्वादिष्ट भोजन और परिवार व दोस्तों के साथ यादगार पलों को कैमरे में कैद करता हूँ।</string>
+    <string name="stat_vlogs">व्लॉग्स</string>
+    <string name="stat_shorts">शॉर्ट्स</string>
+    <string name="stat_subscribers">परिवार</string>
+    <string name="stat_subscribers_val">250K+</string>
+    <string name="about_hardik_title">हार्दिक के बारे में</string>
+    <string name="social_connect_title">सोशल मीडिया लिंक्स</string>
+    <string name="saved_vlogs_title">सेव किए गए व्लॉग</string>
+    <string name="watch_history_title">वॉच हिस्ट्री</string>
+    <string name="notifications_title">सूचनाएं</string>
+    <string name="admin_portal_title">क्रिएटर स्टूडियो</string>
+    <string name="login_to_account">खाते में साइन इन करें</string>
+    <string name="guest_account">गेस्ट यूजर</string>
+    <string name="guest_note">व्लॉग सेव करने, लाइक करने और हिस्ट्री के लिए साइन इन करें।</string>
+
+    <!-- Auth -->
+    <string name="login_button">साइन इन</string>
+    <string name="register_button">नया खाता बनाएं</string>
+    <string name="email_label">ईमेल पता</string>
+    <string name="password_label">पासवर्ड</string>
+    <string name="name_label">पूरा नाम</string>
+    <string name="forgot_password">पासवर्ड भूल गए?</string>
+    <string name="reset_password_instructions">पासवर्ड रीसेट लिंक प्राप्त करने के लिए अपना ईमेल दर्ज करें।</string>
+    <string name="send_reset_link">लिंक भेजें</string>
+    <string name="dont_have_acc">खाता नहीं है? साइन अप करें</string>
+    <string name="already_have_acc">पहले से खाता है? साइन इन करें</string>
+    <string name="continue_as_guest">गेस्ट के रूप में जारी रखें</string>
+    <string name="logout_confirm">क्या आप वाकई लॉग आउट करना चाहते हैं?</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="delete_account">खाता हटाएं</string>
+
+    <!-- Settings -->
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="appearance_section">थीम और डिस्प्ले</string>
+    <string name="theme_setting">थीम</string>
+    <string name="theme_dark">डार्क (सिनेमैटिक)</string>
+    <string name="theme_light">लाइट</string>
+    <string name="theme_system">सिस्टम डिफॉल्ट</string>
+    <string name="language_setting">भाषा / Language / ભાષા</string>
+    <string name="playback_section">प्लेबैक और डेटा</string>
+    <string name="autoplay_setting">ऑटो-प्ले वीडियो</string>
+    <string name="notifications_setting">पुश नोटिफिकेशन</string>
+    <string name="cache_setting">ऐप कैश साफ़ करें</string>
+    <string name="history_setting">वॉच हिस्ट्री साफ़ करें</string>
+    <string name="about_section">जानकारी व नियम</string>
+    <string name="privacy_policy">प्राइवेसी पॉलिसी</string>
+    <string name="terms_service">नियम व शर्तें</string>
+    <string name="contact_us">संपर्क करें</string>
+    <string name="app_version_label">संस्करण 1.0.0 (ऑफिशियल)</string>
+    <string name="cache_cleared_msg">ऐप कैश सफलतापूर्वक साफ़ किया गया।</string>
+    <string name="history_cleared_msg">वॉच हिस्ट्री साफ़ की गई।</string>
+
+    <!-- Common UI States -->
+    <string name="loading">लोड हो रहा है...</string>
+    <string name="error_occurred">कुछ गड़बड़ हुई</string>
+    <string name="offline_msg">आप वर्तमान में ऑफलाइन हैं। सेव किया गया कंटेंट दिखाया जा रहा है।</string>
+    <string name="refresh">रिफ्रेश</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="confirm">पुष्टि करें</string>
+    <string name="empty_saved">कोई सेव किया हुआ व्लॉग नहीं है</string>
+    <string name="empty_saved_desc">बाद में देखने के लिए किसी भी व्लॉग पर बुकमार्क आइकन दबाएं।</string>
+    <string name="empty_history">कोई वॉच हिस्ट्री नहीं है</string>
+    <string name="empty_history_desc">आपके द्वारा देखे गए वीडियो यहां दिखाई देंगे ताकि आप जहां छोड़ा था वहां से जारी रख सकें।</string>
+</resources>

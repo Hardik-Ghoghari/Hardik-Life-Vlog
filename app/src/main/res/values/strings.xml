@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Hardik Life Vlog</string>
+    <string name="app_tagline">Official Creator &amp; Lifestyle Platform</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_vlogs">Vlogs</string>
+    <string name="nav_shorts">Shorts</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Home Section -->
+    <string name="featured_vlog">Featured Vlog</string>
+    <string name="watch_now">Watch Now</string>
+    <string name="latest_vlogs">Latest Vlogs</string>
+    <string name="popular_vlogs">Popular Vlogs</string>
+    <string name="latest_shorts">Latest Shorts</string>
+    <string name="latest_photos">Latest Photos</string>
+    <string name="follow_hardik">Follow Hardik</string>
+    <string name="view_all">View All</string>
+
+    <!-- Vlogs Screen -->
+    <string name="browse_vlogs">Explore All Vlogs</string>
+    <string name="search_vlogs_hint">Search vlogs, trips, stories...</string>
+    <string name="category_all">All</string>
+    <string name="category_daily_life">Daily Life</string>
+    <string name="category_travel">Travel</string>
+    <string name="category_lifestyle">Lifestyle</string>
+    <string name="category_food">Food</string>
+    <string name="category_events">Events</string>
+    <string name="category_family">Family</string>
+    <string name="category_friends">Friends</string>
+    <string name="category_adventure">Adventure</string>
+    <string name="sort_by">Sort By</string>
+    <string name="sort_newest">Newest First</string>
+    <string name="sort_popular">Most Popular</string>
+    <string name="views_count">%1$s views</string>
+    <string name="likes_count">%1$s likes</string>
+    <string name="no_vlogs_found">No vlogs found</string>
+    <string name="no_vlogs_description">Try selecting another category or check back later for new uploads.</string>
+
+    <!-- Vlog Detail Screen -->
+    <string name="related_vlogs">Related Vlogs</string>
+    <string name="like_button">Like</string>
+    <string name="liked_button">Liked</string>
+    <string name="share_button">Share</string>
+    <string name="save_button">Save</string>
+    <string name="saved_button">Saved</string>
+    <string name="open_youtube">Watch on YouTube</string>
+    <string name="report_content">Report Issue</string>
+    <string name="report_submitted">Thank you. Your feedback has been noted.</string>
+    <string name="share_vlog_text">Check out this awesome vlog by Hardik: %1$s \n%2$s</string>
+    <string name="video_error">Unable to load video stream</string>
+    <string name="retry_playback">Retry</string>
+    <string name="speed_title">Playback Speed</string>
+
+    <!-- Shorts Screen -->
+    <string name="sound_original">Original Audio • Hardik Life Vlog</string>
+    <string name="mute">Mute</string>
+    <string name="unmute">Unmute</string>
+
+    <!-- Gallery Screen -->
+    <string name="gallery_title">Photo Moments</string>
+    <string name="gallery_cat_travel">Travel</string>
+    <string name="gallery_cat_daily">Daily Life</string>
+    <string name="gallery_cat_events">Events</string>
+    <string name="gallery_cat_bts">Behind the Scenes</string>
+    <string name="gallery_cat_memories">Memories</string>
+    <string name="share_photo">Share Photo</string>
+    <string name="no_photos_found">No photos found</string>
+
+    <!-- Search Screen -->
+    <string name="search_title">Search Content</string>
+    <string name="search_hint">Search vlogs, shorts, photos...</string>
+    <string name="tab_all">All</string>
+    <string name="recent_searches">Recent Searches</string>
+    <string name="clear_history">Clear</string>
+    <string name="no_results">No results found for \"%1$s\"</string>
+    <string name="no_results_tip">Try searching for trip names, cities, food, or lifestyle vlogs.</string>
+
+    <!-- Profile Screen -->
+    <string name="creator_name">Hardik</string>
+    <string name="creator_tag">@hardiklifevlog</string>
+    <string name="creator_bio">Creator, vlogger &amp; storyteller. Capturing authentic memories, travel adventures, delicious eats, and daily moments with family &amp; friends.</string>
+    <string name="stat_vlogs">Vlogs</string>
+    <string name="stat_shorts">Shorts</string>
+    <string name="stat_subscribers">Community</string>
+    <string name="stat_subscribers_val">250K+</string>
+    <string name="about_hardik_title">About Hardik</string>
+    <string name="social_connect_title">Connect With Hardik</string>
+    <string name="saved_vlogs_title">Saved Vlogs</string>
+    <string name="watch_history_title">Watch History</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="admin_portal_title">Creator Admin Studio</string>
+    <string name="login_to_account">Sign In to Your Account</string>
+    <string name="guest_account">Guest User</string>
+    <string name="guest_note">Sign in to save bookmarks, sync history, and like content.</string>
+
+    <!-- Auth -->
+    <string name="login_button">Sign In</string>
+    <string name="register_button">Create Account</string>
+    <string name="email_label">Email Address</string>
+    <string name="password_label">Password</string>
+    <string name="name_label">Full Name</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_password_instructions">Enter your email to receive a password reset link.</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="dont_have_acc">Don\'t have an account? Sign up</string>
+    <string name="already_have_acc">Already have an account? Sign in</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+    <string name="logout_confirm">Are you sure you want to log out?</string>
+    <string name="logout">Log Out</string>
+    <string name="delete_account">Delete Account</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="appearance_section">Appearance</string>
+    <string name="theme_setting">Theme</string>
+    <string name="theme_dark">Dark (Cinematic)</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_system">System Default</string>
+    <string name="language_setting">Language / ભાષા / भाषा</string>
+    <string name="playback_section">Playback &amp; Data</string>
+    <string name="autoplay_setting">Auto-play videos</string>
+    <string name="notifications_setting">Push Notifications</string>
+    <string name="cache_setting">Clear App Cache</string>
+    <string name="history_setting">Clear Watch History</string>
+    <string name="about_section">About &amp; Legal</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_service">Terms of Service</string>
+    <string name="contact_us">Contact &amp; Inquiries</string>
+    <string name="app_version_label">Version 1.0.0 (Production)</string>
+    <string name="cache_cleared_msg">App cache cleared successfully.</string>
+    <string name="history_cleared_msg">Watch history cleared.</string>
+
+    <!-- Common UI States -->
+    <string name="loading">Loading...</string>
+    <string name="error_occurred">Something went wrong</string>
+    <string name="offline_msg">You are currently offline. Showing cached content.</string>
+    <string name="refresh">Refresh</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="empty_saved">No saved vlogs yet</string>
+    <string name="empty_saved_desc">Tap the bookmark icon on any vlog to save it for later viewing.</string>
+    <string name="empty_history">No watch history yet</string>
+    <string name="empty_history_desc">Videos you watch will appear here so you can continue where you left off.</string>
+</resources>
